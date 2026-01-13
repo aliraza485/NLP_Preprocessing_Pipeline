@@ -1,5 +1,5 @@
 # NLP Preprocessing Pipeline: From Raw Data to Intelligence
-**Internship Project | Autonomous Intelligence and Robotics Lab (AIRL)**
+**Internship Project | General Artificial Intelligence Research Lab (GAIRL)**
 
 ## 📌 Project Overview
 This repository contains a robust NLP preprocessing pipeline built to handle unstructured customer support data. As we move from the **Sequential Era** of RNNs to the **Parallel Era** of Transformers, the quality of input data remains the most critical factor for model accuracy.

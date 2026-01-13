@@ -32,13 +32,6 @@ During the development, I compared **Stemming** (Sequential Era logic) with **Le
 | "The delivery is very late" | `deliveri late` | `delivery late` |
 | "My headphones stopped" | `headphon stop` | `headphone stop` |
 
-## 💻 Implementation (spaCy)
-The spaCy pipeline provides a more "intelligent" output by utilizing the `en_core_web_sm` model to understand the linguistic structure of the customer queries.
-
-```python
-import spacy
-nlp = spacy.load("en_core_web_sm")
-
 def spacy_pipeline(text):
     doc = nlp(text.lower())
     # Filters stop words, punctuation, and returns the dictionary lemma

@@ -32,7 +32,4 @@ During the development, I compared **Stemming** (Sequential Era logic) with **Le
 | "The delivery is very late" | `deliveri late` | `delivery late` |
 | "My headphones stopped" | `headphon stop` | `headphone stop` |
 
-def spacy_pipeline(text):
-    doc = nlp(text.lower())
-    # Filters stop words, punctuation, and returns the dictionary lemma
-    return " ".join([token.lemma_ for token in doc if not token.is_stop and not token.is_punct])
+

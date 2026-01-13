@@ -26,4 +26,4 @@ The pipeline was tested on `customer_support_dataset.csv`, consisting of 200+ ra
 3. Run the script: `python preprocessing_script.py`
 
 ## 🎓 Acknowledgments
-Special thanks to my mentors at the **AIRL Lab, UET Lahore** for their guidance during this internship task.
+Special thanks to my mentors at the **GAIRL Lab, UET Lahore** for their guidance during this internship task.
